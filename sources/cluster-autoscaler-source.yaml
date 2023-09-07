@@ -3,11 +3,11 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: cluster-autoscaler
-  namespace: kube-system
+  namespace: flux-system
 spec:
   interval: 1m0s
   ref:
     branch: main
   secretRef:
-    name: github-ssh-auth
+    name: flux-system
   url: https://github.com/glaxman/component-bom
