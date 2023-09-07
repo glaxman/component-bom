@@ -4,8 +4,6 @@ flux create source git cluster-autoscaler \
 --interval=1m \
 --export > source.yaml
 
-export GITHUB_TOKEN=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
-export GITHUB_USER=glaxman
 
 ```text
 flux create secret git github-auth \
