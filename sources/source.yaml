@@ -1,0 +1,17 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: cluster-autoscaler
+  namespace: kube-system
+spec:
+  interval: 1m0s
+  ref:
+    branch: main
+  secretRef:
+    name: github-ssh-auth
+  url: https://github.com/glaxman/component-cluster-autoscaler
+  include:
+    - repository:
+        name: component-cluster-autoscaler
+      toPath: components/required/component-cluster-autoscaler
