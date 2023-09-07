@@ -11,7 +11,3 @@ spec:
   secretRef:
     name: github-ssh-auth
   url: https://github.com/glaxman/component-cluster-autoscaler
-  include:
-    - repository:
-        name: component-cluster-autoscaler
-      toPath: components/required/component-cluster-autoscaler
