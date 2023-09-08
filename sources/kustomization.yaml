@@ -5,5 +5,4 @@ metadata:
   namespace: flux-system
 resources:
   - cluster-autoscaler-source.yaml
-  - include-all-sources.yaml
 
