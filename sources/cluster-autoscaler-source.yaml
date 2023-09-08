@@ -11,3 +11,4 @@ spec:
   secretRef:
     name: flux-system
   url: https://github.com/glaxman/component-bom
+
