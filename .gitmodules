@@ -1,4 +1,3 @@
 [submodule "components/cluster-autoscaler"]
 	path = components/cluster-autoscaler
 	url = git@github.com:glaxman/component-cluster-autoscaler.git
-	branch =
