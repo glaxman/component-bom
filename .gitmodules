@@ -1,3 +1,3 @@
 [submodule "bundle/cluster-autoscaler"]
 	path = bundle/cluster-autoscaler
-	url = git@github.com/glaxman/component-cluster-autoscaler.git
+	url = ssh://git@github.com/glaxman/component-cluster-autoscaler
